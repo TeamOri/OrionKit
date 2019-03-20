@@ -55,7 +55,7 @@ Pod::Spec.new do |s|
 
   s.author             = { "Elvis" => "dalethirteen@gmail.com" }
   # Or just: s.author    = "Elvis"
-  # s.authors            = { "Elvis" => "200803547@qq.com" }
+  # s.authors            = { "Elvis" => "dalethirteen@gmail.com" }
   # s.social_media_url   = "http://twitter.com/Elvis"
 
   # ――― Platform Specifics ――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
