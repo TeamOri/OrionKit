@@ -1,21 +1,20 @@
 //
-//  UIImage+OriLocalized.h
-//  Foundation
+//  UIImage+OriAdditions.h
+//  OrionKit
 //
-//  Created by didi on 2019/3/19.
-//  Copyright © 2019 Orion. All rights reserved.
+//  Created by Elvis on 2019/3/22.
 //
 
 #import <UIKit/UIKit.h>
 
 NS_ASSUME_NONNULL_BEGIN
 
-@interface UIImage (OriLocalized)
+@interface UIImage (OriAdditions_Loading)
 
 /**
  从指定Bundle中读取图片资源.
  
- @param imageName 图片名.
+ @param imageName 图片名(@"xxx.bundle").
  @param bundleName "BundleName.bundle".
  @return Image实体.
  */

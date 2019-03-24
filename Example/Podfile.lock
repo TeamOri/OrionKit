@@ -1,0 +1,16 @@
+PODS:
+  - OrionKit (0.0.1)
+
+DEPENDENCIES:
+  - OrionKit (from `../OrionKit.podspec`)
+
+EXTERNAL SOURCES:
+  OrionKit:
+    :path: "../OrionKit.podspec"
+
+SPEC CHECKSUMS:
+  OrionKit: 453a32c83808d27357bf53687526a44228aa822e
+
+PODFILE CHECKSUM: ab3a3fd398c058143631587a0e4d46afc553b598
+
+COCOAPODS: 1.5.3

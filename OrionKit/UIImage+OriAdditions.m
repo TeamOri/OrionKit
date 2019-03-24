@@ -1,14 +1,13 @@
 //
-//  UIImage+OriLocalized.m
-//  Foundation
+//  UIImage+OriAdditions.m
+//  OrionKit
 //
-//  Created by didi on 2019/3/19.
-//  Copyright © 2019 Orion. All rights reserved.
+//  Created by Elvis on 2019/3/22.
 //
 
-#import "UIImage+OriLocalized.h"
+#import "UIImage+OriAdditions.h"
 
-@implementation UIImage (OriLocalized)
+@implementation UIImage (OriAdditions_Loading)
 
 + (UIImage *)ori_imageNamed:(NSString *)imageName inBundleName:(NSString *)bundleName
 {
@@ -20,6 +19,5 @@
     }
     return nil;
 }
-
 
 @end
