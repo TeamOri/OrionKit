@@ -10,5 +10,6 @@
 
 #import <OrionKit/OriJSONTools.h>
 #import <OrionKit/UIImage+Additions.h>
+#import <OrionKit/NSFileManager+OriAdditions.H>
 
 #endif

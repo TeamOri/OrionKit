@@ -44,7 +44,7 @@
 - (void)playWithPlayItem:(OriPlayerItem *)item
 {
     if (!item) return;
-//    [self.audioCore play:item]; 
+    [self.audioCore play:item]; 
 }
 
 #pragma mark - OriAudioCoreDelegate -

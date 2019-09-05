@@ -50,7 +50,7 @@
 - (void)click:(id)sender
 {
     NSLog(@"%s",__func__);
-    [self.manager playWithPlayItem:self.item];
+//    [self.manager playWithPlayItem:self.item];
 }
 
 @end

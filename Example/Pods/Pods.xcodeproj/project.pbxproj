@@ -8,27 +8,25 @@
 
 /* Begin PBXBuildFile section */
 		09E5168659D2E20B4B983F19D3F9211E /* Pods-Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E77CEE02EB973905FA29179173A8923E /* Pods-Example-dummy.m */; };
-		3083C6EF784A775E7CA2136DB76CD62E /* OriJSONTools.m in Sources */ = {isa = PBXBuildFile; fileRef = D47591A5386D17598188452FF4E3E898 /* OriJSONTools.m */; };
-		3F33394DC0032496934CE413407115B8 /* OriCache.h in Headers */ = {isa = PBXBuildFile; fileRef = EDCCCE33B10B4F275BBAC81BC45051DF /* OriCache.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		49F22108EE6936FFBEE949DEF9C66C4E /* UIImage+OriAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 1CC849800C4DD147B2852EA76D714AFF /* UIImage+OriAdditions.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		5BCE13D7D08B8407C898434F7D6951CE /* OriCache.m in Sources */ = {isa = PBXBuildFile; fileRef = E58876257F93B342EEB86D0CF49446A7 /* OriCache.m */; };
+		0A05852698386828A9D672AD7AE4412A /* OrionKit-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 7BDA60B2A12EC8480B1E190CA83B78FB /* OrionKit-dummy.m */; };
+		28F61A4DBD46AD27E044DE6C2CA41A2B /* OriJSONTools.m in Sources */ = {isa = PBXBuildFile; fileRef = E3FF0A9428CF5BA84E5688697A970617 /* OriJSONTools.m */; };
+		2C7CB23CC9066C78070BCAD63223822C /* OriCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E2514C7AF58296D4A7AEA630FF72E98 /* OriCache.m */; };
+		303A42122893218D675F0B8DE2F61BDD /* OriKitMarco.h in Headers */ = {isa = PBXBuildFile; fileRef = 783A453FDC60D6ED8CB010939C557697 /* OriKitMarco.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		319919D0FBCC560FABF49599A5B4180C /* UIImage+OriAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 280C3E85E016F23326F29E41F9BA75FC /* UIImage+OriAdditions.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		36F50A63367DB57E0541D0682802C596 /* OriAudioManager.m in Sources */ = {isa = PBXBuildFile; fileRef = AEF1BE6A126AFED88398256A3EB296E4 /* OriAudioManager.m */; };
+		6040592C25AB728EBE6BA469BC1B1267 /* NSFileManager+OriAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 738CB905E9D85C42270B63A873BA9F6A /* NSFileManager+OriAdditions.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		60D714728DDB2D86AE596E10FD267973 /* Pods-ExampleTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 49B08B89FCFA885065A0A954BF98DD73 /* Pods-ExampleTests-dummy.m */; };
-		67ADF046F8A57B94B2A1EBFEAD51E46F /* NSFileManager+OriTools.m in Sources */ = {isa = PBXBuildFile; fileRef = F4FC0CFF9D2DD20F1E358E5B29391AE8 /* NSFileManager+OriTools.m */; };
-		69773DAA42F19A0E5A8E0A81AF897E9E /* NSFileManager+OriAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = DE5F529DF448E277DF5CC2C2C51B531A /* NSFileManager+OriAdditions.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		7966C9D931C4A3183CA4B19BB76996C3 /* UIImage+OriAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 81AB068FA5387F2925C64AE7960E5440 /* UIImage+OriAdditions.m */; };
-		7F2707B07226D118BB8F402CC59774AF /* NSFileManager+OriTools.h in Headers */ = {isa = PBXBuildFile; fileRef = BAA7D2934AE163F465DAAEF023BB6EC6 /* NSFileManager+OriTools.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		8E4640FE46BAE7B1E9EFFAAD41AA2957 /* OriKit.h in Headers */ = {isa = PBXBuildFile; fileRef = 27BF8A05158EEDAAA43763E7928B74A8 /* OriKit.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		8EE7C5B8104BD9507D90CF12E4684271 /* OriKitMarco.h in Headers */ = {isa = PBXBuildFile; fileRef = 05FEC56EAAFD1D4D50B3BAB9A3DCD4D4 /* OriKitMarco.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		A461EFD6B1E45726807EF55DD4E89126 /* OriPlayerItem.m in Sources */ = {isa = PBXBuildFile; fileRef = A2B6191D67CCF161CA4D08CAA008A5B7 /* OriPlayerItem.m */; };
-		B0E61A26FA3B06D6D5B54819ADBF83E7 /* OriPlayerItem.h in Headers */ = {isa = PBXBuildFile; fileRef = D84F7EE40FBE5B5705CF1C2BDE843E4D /* OriPlayerItem.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		B2F5C67F9E5756D8113F83AF788E7660 /* OriAudioManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 4C236B7C40752BC7F6F5B84897C78E13 /* OriAudioManager.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		B33D4B6CEF60291752494665D65EAB82 /* OriJSONTools.h in Headers */ = {isa = PBXBuildFile; fileRef = E3C6CC51D804E4C2F5943D548F04CED8 /* OriJSONTools.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		77CFDE4B8EB40585530A59E75A8D01A2 /* UIImage+OriAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 1052AD1FF13BB3CA6C7A883037E52C27 /* UIImage+OriAdditions.m */; };
+		81D2DC6B9079CD43D802AF6D731A90AC /* OriAudioCore.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F9C5B9481836230783542B9C1952F4D /* OriAudioCore.m */; };
+		A0C19DBD7088BA52F3B560A4FA8880C3 /* NSFileManager+OriAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 1818A3F26F79EBBF0F9323C2EBA2BB88 /* NSFileManager+OriAdditions.m */; };
+		A5F482F1B70C0EF7EB70BC5D8975D6D4 /* OriPlayerItem.h in Headers */ = {isa = PBXBuildFile; fileRef = F110698F45EA78CE6EDA7D7C7CF9B5C0 /* OriPlayerItem.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		B8319FE889FD12ECD07F7ABDFF942741 /* Pods-ExampleUITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E14B7E2AF7F255A79220EFE5DC5229D /* Pods-ExampleUITests-dummy.m */; };
-		C2AA6AF6867839D480E29D9CD3603AC1 /* OriAudioCore.h in Headers */ = {isa = PBXBuildFile; fileRef = 8BFDEB6D375659EDB6F7417DE7DAA36B /* OriAudioCore.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		D9F0C692D21AC3FFBF4A0AAB45A06797 /* OrionKit-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B3768457665F5A3D7D784665ADB6061A /* OrionKit-dummy.m */; };
-		DF129ADEBB4844E84EBE5EB5A0DD1F46 /* OriAudioCore.m in Sources */ = {isa = PBXBuildFile; fileRef = B3B41EE0A6409DE9DB43B71B4FDB70BA /* OriAudioCore.m */; };
-		EC536581CD541AF6B2E43F788A8F4577 /* OriAudioManager.m in Sources */ = {isa = PBXBuildFile; fileRef = B26FB011BA4FC90D080D89933659E9E2 /* OriAudioManager.m */; };
-		EEBFD17F5961E6CB8BB1E8E0CB35901B /* NSFileManager+OriAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 13D0DC777C9E304C789B9A0735E82BAF /* NSFileManager+OriAdditions.m */; };
+		BD258FDD2B1E266FB8731D56C58694C1 /* OriAudioManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 2567A6B8956AD13B5E4702FFD1A32DBF /* OriAudioManager.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		C2FCF90BF0C620CA0BCA49B30E9914AF /* OriPlayerItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 89AEC683B1D12E8218D1FE5B75CFF0E1 /* OriPlayerItem.m */; };
+		D26E6739F88A19D38D122D6BF5C1A68B /* OriAudioCore.h in Headers */ = {isa = PBXBuildFile; fileRef = 4A6DEA4B6CDB538B9808970DF020C9C0 /* OriAudioCore.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		D570A1582339F98FAB90F9975C1C0E03 /* OriKit.h in Headers */ = {isa = PBXBuildFile; fileRef = 66ACA2B9BADCE9C3529C229327781A27 /* OriKit.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		DE9B09712CBB85C761A5A610528A5090 /* OriJSONTools.h in Headers */ = {isa = PBXBuildFile; fileRef = 06841CEA11FA03DD2B0296FF677F5895 /* OriJSONTools.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		F56EE77C8DB839C8E6418F8E8C7C5234 /* OriCache.h in Headers */ = {isa = PBXBuildFile; fileRef = AE9E09E2E37957F59181E7C2D4E92FD7 /* OriCache.h */; settings = {ATTRIBUTES = (Project, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,6 +37,13 @@
 			remoteGlobalIDString = E91D07FC7890B1CF7223C2BBB0A3CFAF;
 			remoteInfo = "Pods-Example";
 		};
+		6F6915CCBF7A71ED380F366F89BF366D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6B797AF9885C6A15B9B5A232204A6941;
+			remoteInfo = "OrionKit-OrionKit";
+		};
 		A7726CBCF9E6B7E252B07311D1AF56ED /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
@@ -46,78 +51,76 @@
 			remoteGlobalIDString = E91D07FC7890B1CF7223C2BBB0A3CFAF;
 			remoteInfo = "Pods-Example";
 		};
-		B333923842D70C36D5BC3641DF2DF655 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 3CC1B87836F030B0FC82CE76C4645F3E;
-			remoteInfo = "OrionKit-OrionKit";
-		};
 		F31FE69CF963264B6E38499F3DE05D46 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = F62628BBDEBFAA60F1B34EA1D3FF9CA9;
+			remoteGlobalIDString = 900CCCC3D77D6D84A701BF898DB3E43A;
 			remoteInfo = OrionKit;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		04209F3761E36DCC6C2E08B719A24F60 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
-		05FEC56EAAFD1D4D50B3BAB9A3DCD4D4 /* OriKitMarco.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = OriKitMarco.h; path = OrionKit/OriKitMarco.h; sourceTree = "<group>"; };
+		06841CEA11FA03DD2B0296FF677F5895 /* OriJSONTools.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = OriJSONTools.h; sourceTree = "<group>"; };
 		0E14B7E2AF7F255A79220EFE5DC5229D /* Pods-ExampleUITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ExampleUITests-dummy.m"; sourceTree = "<group>"; };
+		0E2514C7AF58296D4A7AEA630FF72E98 /* OriCache.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = OriCache.m; sourceTree = "<group>"; };
+		1052AD1FF13BB3CA6C7A883037E52C27 /* UIImage+OriAdditions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UIImage+OriAdditions.m"; sourceTree = "<group>"; };
 		1165050CDD0371052690326F4268B721 /* Pods-ExampleUITests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ExampleUITests-frameworks.sh"; sourceTree = "<group>"; };
 		11F7CFE6B78601A4EF4FC06AA4D9161D /* Pods-ExampleUITests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ExampleUITests-resources.sh"; sourceTree = "<group>"; };
-		13D0DC777C9E304C789B9A0735E82BAF /* NSFileManager+OriAdditions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSFileManager+OriAdditions.m"; path = "OrionKit/NSFileManager+OriAdditions.m"; sourceTree = "<group>"; };
-		1CC849800C4DD147B2852EA76D714AFF /* UIImage+OriAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+OriAdditions.h"; path = "OrionKit/UIImage+OriAdditions.h"; sourceTree = "<group>"; };
+		1818A3F26F79EBBF0F9323C2EBA2BB88 /* NSFileManager+OriAdditions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "NSFileManager+OriAdditions.m"; sourceTree = "<group>"; };
 		210E0212855AB2C64BA9E3284BDC8B08 /* Pods-ExampleTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ExampleTests.release.xcconfig"; sourceTree = "<group>"; };
-		22F37DF297A0EF03443C4826543D4620 /* ResourceBundle-OrionKit-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-OrionKit-Info.plist"; sourceTree = "<group>"; };
-		27BF8A05158EEDAAA43763E7928B74A8 /* OriKit.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = OriKit.h; path = OrionKit/OriKit.h; sourceTree = "<group>"; };
+		2567A6B8956AD13B5E4702FFD1A32DBF /* OriAudioManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = OriAudioManager.h; sourceTree = "<group>"; };
+		280C3E85E016F23326F29E41F9BA75FC /* UIImage+OriAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UIImage+OriAdditions.h"; sourceTree = "<group>"; };
 		49B08B89FCFA885065A0A954BF98DD73 /* Pods-ExampleTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ExampleTests-dummy.m"; sourceTree = "<group>"; };
 		49B3BE932E02C125AF78FD54B1625CFF /* libPods-Example.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-Example.a"; path = "libPods-Example.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		4C236B7C40752BC7F6F5B84897C78E13 /* OriAudioManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = OriAudioManager.h; sourceTree = "<group>"; };
+		4A6DEA4B6CDB538B9808970DF020C9C0 /* OriAudioCore.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = OriAudioCore.h; sourceTree = "<group>"; };
+		51CB3EA6B3CFB39C0C454DE3941113B2 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		55753E25955AB1D89473202EB082C903 /* OrionKit-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "OrionKit-prefix.pch"; sourceTree = "<group>"; };
 		5732B92A609C12D690614EA2448173D3 /* libPods-ExampleTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-ExampleTests.a"; path = "libPods-ExampleTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		60CAFC5B15624890AE093A6AAA75348C /* OrionKit.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = OrionKit.xcconfig; sourceTree = "<group>"; };
+		66ACA2B9BADCE9C3529C229327781A27 /* OriKit.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = OriKit.h; path = OrionKit/OriKit.h; sourceTree = "<group>"; };
 		672F247EE932F990988F25DAFEAFD6E0 /* Pods-Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Example.release.xcconfig"; sourceTree = "<group>"; };
 		6D27C8AC6BAED58BD7A7E6DF637CCE24 /* OrionKit.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = OrionKit.bundle; path = "OrionKit-OrionKit.bundle"; sourceTree = BUILT_PRODUCTS_DIR; };
 		6E7830E3AE81E308942A406D2ACA0BEF /* libOrionKit.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libOrionKit.a; path = libOrionKit.a; sourceTree = BUILT_PRODUCTS_DIR; };
-		7A5A2EE3A6050FDAF3A3FA47982466C2 /* OrionKit.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; path = OrionKit.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		738CB905E9D85C42270B63A873BA9F6A /* NSFileManager+OriAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NSFileManager+OriAdditions.h"; sourceTree = "<group>"; };
+		783A453FDC60D6ED8CB010939C557697 /* OriKitMarco.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = OriKitMarco.h; path = OrionKit/OriKitMarco.h; sourceTree = "<group>"; };
+		7BDA60B2A12EC8480B1E190CA83B78FB /* OrionKit-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "OrionKit-dummy.m"; sourceTree = "<group>"; };
 		7DC9AF2447DE48E05BBD2E7A102756AA /* Pods-ExampleUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ExampleUITests.release.xcconfig"; sourceTree = "<group>"; };
 		808067C1D8762456415B0E116AC19958 /* Pods-Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Example-acknowledgements.plist"; sourceTree = "<group>"; };
 		818B7A9DD6A003EAF240AB23BB8F334C /* Pods-Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Example-resources.sh"; sourceTree = "<group>"; };
-		81AB068FA5387F2925C64AE7960E5440 /* UIImage+OriAdditions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+OriAdditions.m"; path = "OrionKit/UIImage+OriAdditions.m"; sourceTree = "<group>"; };
-		8BFDEB6D375659EDB6F7417DE7DAA36B /* OriAudioCore.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = OriAudioCore.h; sourceTree = "<group>"; };
+		89AEC683B1D12E8218D1FE5B75CFF0E1 /* OriPlayerItem.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = OriPlayerItem.m; sourceTree = "<group>"; };
+		8F9C5B9481836230783542B9C1952F4D /* OriAudioCore.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = OriAudioCore.m; sourceTree = "<group>"; };
+		92BB88ABAC30387408F0D5FBB9F03CDE /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
 		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		9583B5024C8DB95ED3E6BD366B98DC02 /* Pods-ExampleUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ExampleUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		A0218B5546E51A859DAA8288E540AA11 /* libPods-ExampleUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-ExampleUITests.a"; path = "libPods-ExampleUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		A2B6191D67CCF161CA4D08CAA008A5B7 /* OriPlayerItem.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = OriPlayerItem.m; sourceTree = "<group>"; };
-		B26FB011BA4FC90D080D89933659E9E2 /* OriAudioManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = OriAudioManager.m; sourceTree = "<group>"; };
-		B3768457665F5A3D7D784665ADB6061A /* OrionKit-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "OrionKit-dummy.m"; sourceTree = "<group>"; };
-		B3B41EE0A6409DE9DB43B71B4FDB70BA /* OriAudioCore.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = OriAudioCore.m; sourceTree = "<group>"; };
-		B5D070A7D67A05B6019D181B9540D6DD /* OrionKit-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "OrionKit-prefix.pch"; sourceTree = "<group>"; };
+		AB2F441282FAFCBA2D700E9315BA334F /* ResourceBundle-OrionKit-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-OrionKit-Info.plist"; sourceTree = "<group>"; };
+		AE9E09E2E37957F59181E7C2D4E92FD7 /* OriCache.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = OriCache.h; sourceTree = "<group>"; };
+		AEF1BE6A126AFED88398256A3EB296E4 /* OriAudioManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = OriAudioManager.m; sourceTree = "<group>"; };
 		B916A883689C47CF863522F2B07E5FA1 /* Pods-Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Example.debug.xcconfig"; sourceTree = "<group>"; };
-		BAA7D2934AE163F465DAAEF023BB6EC6 /* NSFileManager+OriTools.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NSFileManager+OriTools.h"; sourceTree = "<group>"; };
 		BD579DEB5D6BF8B4E85C2A9E40397F99 /* Pods-ExampleTests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ExampleTests-frameworks.sh"; sourceTree = "<group>"; };
 		CB1B184DD29EBA3369A9CFCE16539359 /* Pods-ExampleUITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ExampleUITests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		CE05E5E69C8B7ECCD951565B9E2E3046 /* Pods-ExampleTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ExampleTests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		D3F568FF1B2D14A1968F232398EDDB02 /* Pods-ExampleTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ExampleTests-acknowledgements.plist"; sourceTree = "<group>"; };
-		D47591A5386D17598188452FF4E3E898 /* OriJSONTools.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = OriJSONTools.m; sourceTree = "<group>"; };
-		D84F7EE40FBE5B5705CF1C2BDE843E4D /* OriPlayerItem.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = OriPlayerItem.h; sourceTree = "<group>"; };
-		DC785E05D7D8A4C3CF075E5DEA33DD22 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
-		DE5F529DF448E277DF5CC2C2C51B531A /* NSFileManager+OriAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSFileManager+OriAdditions.h"; path = "OrionKit/NSFileManager+OriAdditions.h"; sourceTree = "<group>"; };
-		E3C6CC51D804E4C2F5943D548F04CED8 /* OriJSONTools.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = OriJSONTools.h; sourceTree = "<group>"; };
+		DCE1FC1DA7527B9E9AF7A9D1F4CA8C3D /* OrionKit.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = OrionKit.xcconfig; sourceTree = "<group>"; };
+		E3FF0A9428CF5BA84E5688697A970617 /* OriJSONTools.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = OriJSONTools.m; sourceTree = "<group>"; };
 		E4ABBF6C358955AFDEE464034636312A /* Pods-Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Example-acknowledgements.markdown"; sourceTree = "<group>"; };
-		E58876257F93B342EEB86D0CF49446A7 /* OriCache.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = OriCache.m; sourceTree = "<group>"; };
+		E53AF12F52090E92E1A61D88264FDBE2 /* OrionKit.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; path = OrionKit.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		E77CEE02EB973905FA29179173A8923E /* Pods-Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Example-dummy.m"; sourceTree = "<group>"; };
-		EDCCCE33B10B4F275BBAC81BC45051DF /* OriCache.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = OriCache.h; sourceTree = "<group>"; };
 		EDE78083A6D41F43AEFE3D059BA7D999 /* Pods-ExampleUITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ExampleUITests-acknowledgements.plist"; sourceTree = "<group>"; };
 		EF6D9F003601623058CB6A0C4D5A093A /* Pods-ExampleTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ExampleTests.debug.xcconfig"; sourceTree = "<group>"; };
-		F4FC0CFF9D2DD20F1E358E5B29391AE8 /* NSFileManager+OriTools.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "NSFileManager+OriTools.m"; sourceTree = "<group>"; };
+		F110698F45EA78CE6EDA7D7C7CF9B5C0 /* OriPlayerItem.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = OriPlayerItem.h; sourceTree = "<group>"; };
 		F820154E747B28E0889F0C33226C40C0 /* Pods-ExampleTests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ExampleTests-resources.sh"; sourceTree = "<group>"; };
 		FEFA308AFDDD066350E11ECA33BB4656 /* Pods-Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Example-frameworks.sh"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		03CFA2BD1E32C0EBCE597AF1AF61FBF9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		063CE06E991D94258AFEF291612EB0DF /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -139,14 +142,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		B2D4827087C4AD3355BEAA0BF2CF9D03 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		F7CBE28DFC5DB411A564773A6B605AC9 /* Frameworks */ = {
+		EE1DB04B2E6F00D05EF0A13A4D511101 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -163,15 +159,50 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		1194B4EF6D9CF56D57C1E10CE084B821 /* Tools */ = {
+		1A452AE2396806BBA81951949A635B15 /* Tools */ = {
 			isa = PBXGroup;
 			children = (
-				EE75F215115B161715630E75BFFC0CA9 /* Cache */,
-				71AAD013CF94451C816715C2F1A528C5 /* FileManager */,
-				6EBD3B35ACC5D4A0E9157A0944869543 /* JSON */,
+				4AA14903BE5BD205A5A2DCB4F0363107 /* Cache */,
+				941A5003C091285076E3F5AA39A7C3A0 /* JSON */,
 			);
 			name = Tools;
 			path = OrionKit/Tools;
+			sourceTree = "<group>";
+		};
+		1E2737D4FDD4BAEC281D15E99B846892 /* Audio */ = {
+			isa = PBXGroup;
+			children = (
+				4A6DEA4B6CDB538B9808970DF020C9C0 /* OriAudioCore.h */,
+				8F9C5B9481836230783542B9C1952F4D /* OriAudioCore.m */,
+				2567A6B8956AD13B5E4702FFD1A32DBF /* OriAudioManager.h */,
+				AEF1BE6A126AFED88398256A3EB296E4 /* OriAudioManager.m */,
+				F110698F45EA78CE6EDA7D7C7CF9B5C0 /* OriPlayerItem.h */,
+				89AEC683B1D12E8218D1FE5B75CFF0E1 /* OriPlayerItem.m */,
+			);
+			name = Audio;
+			path = OrionKit/Audio;
+			sourceTree = "<group>";
+		};
+		3C13C942246BCA604F2DA48022AA48DE /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				DCE1FC1DA7527B9E9AF7A9D1F4CA8C3D /* OrionKit.xcconfig */,
+				7BDA60B2A12EC8480B1E190CA83B78FB /* OrionKit-dummy.m */,
+				55753E25955AB1D89473202EB082C903 /* OrionKit-prefix.pch */,
+				AB2F441282FAFCBA2D700E9315BA334F /* ResourceBundle-OrionKit-Info.plist */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/OrionKit";
+			sourceTree = "<group>";
+		};
+		4AA14903BE5BD205A5A2DCB4F0363107 /* Cache */ = {
+			isa = PBXGroup;
+			children = (
+				AE9E09E2E37957F59181E7C2D4E92FD7 /* OriCache.h */,
+				0E2514C7AF58296D4A7AEA630FF72E98 /* OriCache.m */,
+			);
+			name = Cache;
+			path = Cache;
 			sourceTree = "<group>";
 		};
 		516AAD67110429D3438AE770F45ED608 /* Products */ = {
@@ -201,97 +232,48 @@
 			path = "Target Support Files/Pods-ExampleTests";
 			sourceTree = "<group>";
 		};
-		60E360A738A79DA37DADA5C0C5393960 /* OrionKit */ = {
-			isa = PBXGroup;
-			children = (
-				DE5F529DF448E277DF5CC2C2C51B531A /* NSFileManager+OriAdditions.h */,
-				13D0DC777C9E304C789B9A0735E82BAF /* NSFileManager+OriAdditions.m */,
-				27BF8A05158EEDAAA43763E7928B74A8 /* OriKit.h */,
-				05FEC56EAAFD1D4D50B3BAB9A3DCD4D4 /* OriKitMarco.h */,
-				1CC849800C4DD147B2852EA76D714AFF /* UIImage+OriAdditions.h */,
-				81AB068FA5387F2925C64AE7960E5440 /* UIImage+OriAdditions.m */,
-				9856713B550BB9752020AE7355D9F0B2 /* Audio */,
-				9D43F7077F6AC5242DE304CC8F6EDE49 /* Pod */,
-				61395C493A3A2D9C935446324501CACF /* Support Files */,
-				1194B4EF6D9CF56D57C1E10CE084B821 /* Tools */,
-			);
-			name = OrionKit;
-			path = ../..;
-			sourceTree = "<group>";
-		};
-		61395C493A3A2D9C935446324501CACF /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				60CAFC5B15624890AE093A6AAA75348C /* OrionKit.xcconfig */,
-				B3768457665F5A3D7D784665ADB6061A /* OrionKit-dummy.m */,
-				B5D070A7D67A05B6019D181B9540D6DD /* OrionKit-prefix.pch */,
-				22F37DF297A0EF03443C4826543D4620 /* ResourceBundle-OrionKit-Info.plist */,
-			);
-			name = "Support Files";
-			path = "Example/Pods/Target Support Files/OrionKit";
-			sourceTree = "<group>";
-		};
-		6EBD3B35ACC5D4A0E9157A0944869543 /* JSON */ = {
-			isa = PBXGroup;
-			children = (
-				E3C6CC51D804E4C2F5943D548F04CED8 /* OriJSONTools.h */,
-				D47591A5386D17598188452FF4E3E898 /* OriJSONTools.m */,
-			);
-			name = JSON;
-			path = JSON;
-			sourceTree = "<group>";
-		};
-		71AAD013CF94451C816715C2F1A528C5 /* FileManager */ = {
-			isa = PBXGroup;
-			children = (
-				BAA7D2934AE163F465DAAEF023BB6EC6 /* NSFileManager+OriTools.h */,
-				F4FC0CFF9D2DD20F1E358E5B29391AE8 /* NSFileManager+OriTools.m */,
-			);
-			name = FileManager;
-			path = FileManager;
-			sourceTree = "<group>";
-		};
 		7DB346D0F39D3F0E887471402A8071AB = {
 			isa = PBXGroup;
 			children = (
 				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
-				81C337A409E3154A580D22908FFEEC25 /* Development Pods */,
+				91EC6A50CBDB2130B89F99756247884B /* Development Pods */,
 				0F8D2E47FE03D3B91B51069F7C273AF4 /* Frameworks */,
 				516AAD67110429D3438AE770F45ED608 /* Products */,
 				F881667A9F8B28BEF4377921DC283C53 /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
 		};
-		81C337A409E3154A580D22908FFEEC25 /* Development Pods */ = {
+		8098C2A6C6AB573A042BD300776CEF67 /* OrionKit */ = {
 			isa = PBXGroup;
 			children = (
-				60E360A738A79DA37DADA5C0C5393960 /* OrionKit */,
+				66ACA2B9BADCE9C3529C229327781A27 /* OriKit.h */,
+				783A453FDC60D6ED8CB010939C557697 /* OriKitMarco.h */,
+				BDAFCBA7880844CD4FB042E113C38680 /* Additions */,
+				1E2737D4FDD4BAEC281D15E99B846892 /* Audio */,
+				B43EB1A6B254F928D04EE801CA4C9A27 /* Pod */,
+				3C13C942246BCA604F2DA48022AA48DE /* Support Files */,
+				1A452AE2396806BBA81951949A635B15 /* Tools */,
+			);
+			name = OrionKit;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		91EC6A50CBDB2130B89F99756247884B /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				8098C2A6C6AB573A042BD300776CEF67 /* OrionKit */,
 			);
 			name = "Development Pods";
 			sourceTree = "<group>";
 		};
-		9856713B550BB9752020AE7355D9F0B2 /* Audio */ = {
+		941A5003C091285076E3F5AA39A7C3A0 /* JSON */ = {
 			isa = PBXGroup;
 			children = (
-				8BFDEB6D375659EDB6F7417DE7DAA36B /* OriAudioCore.h */,
-				B3B41EE0A6409DE9DB43B71B4FDB70BA /* OriAudioCore.m */,
-				4C236B7C40752BC7F6F5B84897C78E13 /* OriAudioManager.h */,
-				B26FB011BA4FC90D080D89933659E9E2 /* OriAudioManager.m */,
-				D84F7EE40FBE5B5705CF1C2BDE843E4D /* OriPlayerItem.h */,
-				A2B6191D67CCF161CA4D08CAA008A5B7 /* OriPlayerItem.m */,
+				06841CEA11FA03DD2B0296FF677F5895 /* OriJSONTools.h */,
+				E3FF0A9428CF5BA84E5688697A970617 /* OriJSONTools.m */,
 			);
-			name = Audio;
-			path = OrionKit/Audio;
-			sourceTree = "<group>";
-		};
-		9D43F7077F6AC5242DE304CC8F6EDE49 /* Pod */ = {
-			isa = PBXGroup;
-			children = (
-				04209F3761E36DCC6C2E08B719A24F60 /* LICENSE */,
-				7A5A2EE3A6050FDAF3A3FA47982466C2 /* OrionKit.podspec */,
-				DC785E05D7D8A4C3CF075E5DEA33DD22 /* README.md */,
-			);
-			name = Pod;
+			name = JSON;
+			path = JSON;
 			sourceTree = "<group>";
 		};
 		A5216915028D33073FA488DE84B1C094 /* Pods-Example */ = {
@@ -309,6 +291,28 @@
 			path = "Target Support Files/Pods-Example";
 			sourceTree = "<group>";
 		};
+		B43EB1A6B254F928D04EE801CA4C9A27 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				51CB3EA6B3CFB39C0C454DE3941113B2 /* LICENSE */,
+				E53AF12F52090E92E1A61D88264FDBE2 /* OrionKit.podspec */,
+				92BB88ABAC30387408F0D5FBB9F03CDE /* README.md */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		BDAFCBA7880844CD4FB042E113C38680 /* Additions */ = {
+			isa = PBXGroup;
+			children = (
+				738CB905E9D85C42270B63A873BA9F6A /* NSFileManager+OriAdditions.h */,
+				1818A3F26F79EBBF0F9323C2EBA2BB88 /* NSFileManager+OriAdditions.m */,
+				280C3E85E016F23326F29E41F9BA75FC /* UIImage+OriAdditions.h */,
+				1052AD1FF13BB3CA6C7A883037E52C27 /* UIImage+OriAdditions.m */,
+			);
+			name = Additions;
+			path = OrionKit/Additions;
+			sourceTree = "<group>";
+		};
 		C41B17CB4FA5637DF940632191C97987 /* Pods-ExampleUITests */ = {
 			isa = PBXGroup;
 			children = (
@@ -324,16 +328,6 @@
 			path = "Target Support Files/Pods-ExampleUITests";
 			sourceTree = "<group>";
 		};
-		EE75F215115B161715630E75BFFC0CA9 /* Cache */ = {
-			isa = PBXGroup;
-			children = (
-				EDCCCE33B10B4F275BBAC81BC45051DF /* OriCache.h */,
-				E58876257F93B342EEB86D0CF49446A7 /* OriCache.m */,
-			);
-			name = Cache;
-			path = Cache;
-			sourceTree = "<group>";
-		};
 		F881667A9F8B28BEF4377921DC283C53 /* Targets Support Files */ = {
 			isa = PBXGroup;
 			children = (
@@ -347,43 +341,25 @@
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		F5DB54250D612ADF2EBC51ACBA5D29EE /* Headers */ = {
+		B96B9BB309F318364985C2760B111108 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				69773DAA42F19A0E5A8E0A81AF897E9E /* NSFileManager+OriAdditions.h in Headers */,
-				7F2707B07226D118BB8F402CC59774AF /* NSFileManager+OriTools.h in Headers */,
-				C2AA6AF6867839D480E29D9CD3603AC1 /* OriAudioCore.h in Headers */,
-				B2F5C67F9E5756D8113F83AF788E7660 /* OriAudioManager.h in Headers */,
-				3F33394DC0032496934CE413407115B8 /* OriCache.h in Headers */,
-				B33D4B6CEF60291752494665D65EAB82 /* OriJSONTools.h in Headers */,
-				8E4640FE46BAE7B1E9EFFAAD41AA2957 /* OriKit.h in Headers */,
-				8EE7C5B8104BD9507D90CF12E4684271 /* OriKitMarco.h in Headers */,
-				B0E61A26FA3B06D6D5B54819ADBF83E7 /* OriPlayerItem.h in Headers */,
-				49F22108EE6936FFBEE949DEF9C66C4E /* UIImage+OriAdditions.h in Headers */,
+				6040592C25AB728EBE6BA469BC1B1267 /* NSFileManager+OriAdditions.h in Headers */,
+				D26E6739F88A19D38D122D6BF5C1A68B /* OriAudioCore.h in Headers */,
+				BD258FDD2B1E266FB8731D56C58694C1 /* OriAudioManager.h in Headers */,
+				F56EE77C8DB839C8E6418F8E8C7C5234 /* OriCache.h in Headers */,
+				DE9B09712CBB85C761A5A610528A5090 /* OriJSONTools.h in Headers */,
+				D570A1582339F98FAB90F9975C1C0E03 /* OriKit.h in Headers */,
+				303A42122893218D675F0B8DE2F61BDD /* OriKitMarco.h in Headers */,
+				A5F482F1B70C0EF7EB70BC5D8975D6D4 /* OriPlayerItem.h in Headers */,
+				319919D0FBCC560FABF49599A5B4180C /* UIImage+OriAdditions.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		3CC1B87836F030B0FC82CE76C4645F3E /* OrionKit-OrionKit */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = D263E6444E14FE7F9FBCA819FB152BDA /* Build configuration list for PBXNativeTarget "OrionKit-OrionKit" */;
-			buildPhases = (
-				755BC2253859E780B86A4098CEBD6B9F /* Sources */,
-				B2D4827087C4AD3355BEAA0BF2CF9D03 /* Frameworks */,
-				99509E3CDCFCD5D50CAFB5C840BDDD7E /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = "OrionKit-OrionKit";
-			productName = "OrionKit-OrionKit";
-			productReference = 6D27C8AC6BAED58BD7A7E6DF637CCE24 /* OrionKit.bundle */;
-			productType = "com.apple.product-type.bundle";
-		};
 		6210A8EC37B57192F78F9186A642BB8C /* Pods-ExampleTests */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = DBE8FAB7AADA110CAA5A7BE2F0A679FE /* Build configuration list for PBXNativeTarget "Pods-ExampleTests" */;
@@ -399,6 +375,41 @@
 			name = "Pods-ExampleTests";
 			productName = "Pods-ExampleTests";
 			productReference = 5732B92A609C12D690614EA2448173D3 /* libPods-ExampleTests.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		6B797AF9885C6A15B9B5A232204A6941 /* OrionKit-OrionKit */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4E1049254CF469E548EEC8ABCBDF6EA8 /* Build configuration list for PBXNativeTarget "OrionKit-OrionKit" */;
+			buildPhases = (
+				9FA17CE3265132DDFBB3741607A7B0DF /* Sources */,
+				03CFA2BD1E32C0EBCE597AF1AF61FBF9 /* Frameworks */,
+				8D217ED2BD8D739F789B8953E8547F9F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "OrionKit-OrionKit";
+			productName = "OrionKit-OrionKit";
+			productReference = 6D27C8AC6BAED58BD7A7E6DF637CCE24 /* OrionKit.bundle */;
+			productType = "com.apple.product-type.bundle";
+		};
+		900CCCC3D77D6D84A701BF898DB3E43A /* OrionKit */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3DF5E83CF8D3539CB84C1EBB83C06CDC /* Build configuration list for PBXNativeTarget "OrionKit" */;
+			buildPhases = (
+				AC232507C93A8033BE6083BCEEAD475E /* Sources */,
+				EE1DB04B2E6F00D05EF0A13A4D511101 /* Frameworks */,
+				B96B9BB309F318364985C2760B111108 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9D46FC0E14A8D400137253153C7706AE /* PBXTargetDependency */,
+			);
+			name = OrionKit;
+			productName = OrionKit;
+			productReference = 6E7830E3AE81E308942A406D2ACA0BEF /* libOrionKit.a */;
 			productType = "com.apple.product-type.library.static";
 		};
 		E91D07FC7890B1CF7223C2BBB0A3CFAF /* Pods-Example */ = {
@@ -435,24 +446,6 @@
 			productReference = A0218B5546E51A859DAA8288E540AA11 /* libPods-ExampleUITests.a */;
 			productType = "com.apple.product-type.library.static";
 		};
-		F62628BBDEBFAA60F1B34EA1D3FF9CA9 /* OrionKit */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = F48893933F6E24B801A3D3D0701FA545 /* Build configuration list for PBXNativeTarget "OrionKit" */;
-			buildPhases = (
-				CCB4A8ED01B2230357ECDF9480A229E1 /* Sources */,
-				F7CBE28DFC5DB411A564773A6B605AC9 /* Frameworks */,
-				F5DB54250D612ADF2EBC51ACBA5D29EE /* Headers */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				21DD05207E819746FAC876974BB65525 /* PBXTargetDependency */,
-			);
-			name = OrionKit;
-			productName = OrionKit;
-			productReference = 6E7830E3AE81E308942A406D2ACA0BEF /* libOrionKit.a */;
-			productType = "com.apple.product-type.library.static";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -474,8 +467,8 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				F62628BBDEBFAA60F1B34EA1D3FF9CA9 /* OrionKit */,
-				3CC1B87836F030B0FC82CE76C4645F3E /* OrionKit-OrionKit */,
+				900CCCC3D77D6D84A701BF898DB3E43A /* OrionKit */,
+				6B797AF9885C6A15B9B5A232204A6941 /* OrionKit-OrionKit */,
 				E91D07FC7890B1CF7223C2BBB0A3CFAF /* Pods-Example */,
 				6210A8EC37B57192F78F9186A642BB8C /* Pods-ExampleTests */,
 				EEB653A7C482D230D77B3DD8F262B927 /* Pods-ExampleUITests */,
@@ -484,7 +477,7 @@
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		99509E3CDCFCD5D50CAFB5C840BDDD7E /* Resources */ = {
+		8D217ED2BD8D739F789B8953E8547F9F /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -494,13 +487,6 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		755BC2253859E780B86A4098CEBD6B9F /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		8A5AEFD0EB14AD992B86DD2D1E67864F /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -517,6 +503,28 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		9FA17CE3265132DDFBB3741607A7B0DF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AC232507C93A8033BE6083BCEEAD475E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A0C19DBD7088BA52F3B560A4FA8880C3 /* NSFileManager+OriAdditions.m in Sources */,
+				81D2DC6B9079CD43D802AF6D731A90AC /* OriAudioCore.m in Sources */,
+				36F50A63367DB57E0541D0682802C596 /* OriAudioManager.m in Sources */,
+				2C7CB23CC9066C78070BCAD63223822C /* OriCache.m in Sources */,
+				28F61A4DBD46AD27E044DE6C2CA41A2B /* OriJSONTools.m in Sources */,
+				0A05852698386828A9D672AD7AE4412A /* OrionKit-dummy.m in Sources */,
+				C2FCF90BF0C620CA0BCA49B30E9914AF /* OriPlayerItem.m in Sources */,
+				77CFDE4B8EB40585530A59E75A8D01A2 /* UIImage+OriAdditions.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		B44702FB76C05F802F64E843F23B16A4 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -525,41 +533,25 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		CCB4A8ED01B2230357ECDF9480A229E1 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				EEBFD17F5961E6CB8BB1E8E0CB35901B /* NSFileManager+OriAdditions.m in Sources */,
-				67ADF046F8A57B94B2A1EBFEAD51E46F /* NSFileManager+OriTools.m in Sources */,
-				DF129ADEBB4844E84EBE5EB5A0DD1F46 /* OriAudioCore.m in Sources */,
-				EC536581CD541AF6B2E43F788A8F4577 /* OriAudioManager.m in Sources */,
-				5BCE13D7D08B8407C898434F7D6951CE /* OriCache.m in Sources */,
-				3083C6EF784A775E7CA2136DB76CD62E /* OriJSONTools.m in Sources */,
-				D9F0C692D21AC3FFBF4A0AAB45A06797 /* OrionKit-dummy.m in Sources */,
-				A461EFD6B1E45726807EF55DD4E89126 /* OriPlayerItem.m in Sources */,
-				7966C9D931C4A3183CA4B19BB76996C3 /* UIImage+OriAdditions.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		21DD05207E819746FAC876974BB65525 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = "OrionKit-OrionKit";
-			target = 3CC1B87836F030B0FC82CE76C4645F3E /* OrionKit-OrionKit */;
-			targetProxy = B333923842D70C36D5BC3641DF2DF655 /* PBXContainerItemProxy */;
-		};
 		5B17AAC233074CE5A28534C3F6B7A0A5 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = "Pods-Example";
 			target = E91D07FC7890B1CF7223C2BBB0A3CFAF /* Pods-Example */;
 			targetProxy = A7726CBCF9E6B7E252B07311D1AF56ED /* PBXContainerItemProxy */;
 		};
+		9D46FC0E14A8D400137253153C7706AE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "OrionKit-OrionKit";
+			target = 6B797AF9885C6A15B9B5A232204A6941 /* OrionKit-OrionKit */;
+			targetProxy = 6F6915CCBF7A71ED380F366F89BF366D /* PBXContainerItemProxy */;
+		};
 		A0BF4BE992094D8EF93E68B3D40DCFC9 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = OrionKit;
-			target = F62628BBDEBFAA60F1B34EA1D3FF9CA9 /* OrionKit */;
+			target = 900CCCC3D77D6D84A701BF898DB3E43A /* OrionKit */;
 			targetProxy = F31FE69CF963264B6E38499F3DE05D46 /* PBXContainerItemProxy */;
 		};
 		F6A740D8240A99E6665EDC3D1112C0D8 /* PBXTargetDependency */ = {
@@ -699,9 +691,9 @@
 			};
 			name = Release;
 		};
-		272D86F43781AF60790F499A20CCC35B /* Debug */ = {
+		2BD37B316B14FB57F7B31B2AC53C0F1F /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 60CAFC5B15624890AE093A6AAA75348C /* OrionKit.xcconfig */;
+			baseConfigurationReference = DCE1FC1DA7527B9E9AF7A9D1F4CA8C3D /* OrionKit.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/OrionKit";
@@ -713,34 +705,11 @@
 				TARGETED_DEVICE_FAMILY = "1,2";
 				WRAPPER_EXTENSION = bundle;
 			};
-			name = Debug;
+			name = Release;
 		};
-		3726576B62DE3B507A71FB433BC80BEA /* Debug */ = {
+		42FD9357B57369DA1B37434B2D29C333 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 60CAFC5B15624890AE093A6AAA75348C /* OrionKit.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				GCC_PREFIX_HEADER = "Target Support Files/OrionKit/OrionKit-prefix.pch";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PRIVATE_HEADERS_FOLDER_PATH = "";
-				PRODUCT_MODULE_NAME = OrionKit;
-				PRODUCT_NAME = OrionKit;
-				PUBLIC_HEADERS_FOLDER_PATH = "";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Debug;
-		};
-		3B883FE1774AD1C992986775E55DF87C /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 60CAFC5B15624890AE093A6AAA75348C /* OrionKit.xcconfig */;
+			baseConfigurationReference = DCE1FC1DA7527B9E9AF7A9D1F4CA8C3D /* OrionKit.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -762,9 +731,32 @@
 			};
 			name = Release;
 		};
-		8515F13E6FFE80AFE07180B869CBBAD9 /* Release */ = {
+		61B114D07BD918758537BD606667C9EC /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 60CAFC5B15624890AE093A6AAA75348C /* OrionKit.xcconfig */;
+			baseConfigurationReference = DCE1FC1DA7527B9E9AF7A9D1F4CA8C3D /* OrionKit.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/OrionKit/OrionKit-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = OrionKit;
+				PRODUCT_NAME = OrionKit;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		664B4694A20B7761F27933A492BE1F02 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DCE1FC1DA7527B9E9AF7A9D1F4CA8C3D /* OrionKit.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/OrionKit";
@@ -776,7 +768,7 @@
 				TARGETED_DEVICE_FAMILY = "1,2";
 				WRAPPER_EXTENSION = bundle;
 			};
-			name = Release;
+			name = Debug;
 		};
 		915BD2A84B54E97A6E2AE1AE751085B6 /* Debug */ = {
 			isa = XCBuildConfiguration;
@@ -912,6 +904,24 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
+		3DF5E83CF8D3539CB84C1EBB83C06CDC /* Build configuration list for PBXNativeTarget "OrionKit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				61B114D07BD918758537BD606667C9EC /* Debug */,
+				42FD9357B57369DA1B37434B2D29C333 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4E1049254CF469E548EEC8ABCBDF6EA8 /* Build configuration list for PBXNativeTarget "OrionKit-OrionKit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				664B4694A20B7761F27933A492BE1F02 /* Debug */,
+				2BD37B316B14FB57F7B31B2AC53C0F1F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		74F60F29945C5BB3EFB3B67A803A26CD /* Build configuration list for PBXNativeTarget "Pods-Example" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -921,29 +931,11 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		D263E6444E14FE7F9FBCA819FB152BDA /* Build configuration list for PBXNativeTarget "OrionKit-OrionKit" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				272D86F43781AF60790F499A20CCC35B /* Debug */,
-				8515F13E6FFE80AFE07180B869CBBAD9 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
 		DBE8FAB7AADA110CAA5A7BE2F0A679FE /* Build configuration list for PBXNativeTarget "Pods-ExampleTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				0F4C49AAB0BFFF867FF38663C2B705C4 /* Debug */,
 				AF3B09D933BCDE149B58B279D55FC39E /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		F48893933F6E24B801A3D3D0701FA545 /* Build configuration list for PBXNativeTarget "OrionKit" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				3726576B62DE3B507A71FB433BC80BEA /* Debug */,
-				3B883FE1774AD1C992986775E55DF87C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
