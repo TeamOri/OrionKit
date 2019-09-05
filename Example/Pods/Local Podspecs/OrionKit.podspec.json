@@ -19,5 +19,10 @@
     "tag": "0.0.1"
   },
   "source_files": "OrionKit/**/*.{h,m,mm}",
-  "exclude_files": "Classes/Exclude"
+  "exclude_files": "Classes/Exclude",
+  "resource_bundles": {
+    "OrionKit": [
+      "OrionKit/Assets/**/*"
+    ]
+  }
 }

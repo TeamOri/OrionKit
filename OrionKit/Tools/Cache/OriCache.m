@@ -7,10 +7,17 @@
 
 #import "OriCache.h"
 
+#ifdef DEBUG
+#define NSLog(...) NSLog(__VA_ARGS__)
+#else
+#define NSLog(...)
+#endif
+
+
 @interface OriCache()
 
 @property (nonatomic, strong) NSCache * coreCache;
-@property (nonatomic, strong) dispatch_queue_t queue;
+@property (nonatomic, strong) dispatch_queue_t ioQueue;
 @property (nonatomic, copy) NSString * path;
 
 @end
@@ -68,7 +75,11 @@
             NSData * data = [[NSData alloc] initWithContentsOfFile:objPath];
             NSError * err = nil;
             @try {
-                obj = [NSKeyedUnarchiver unarchivedObjectOfClass:cls fromData:data error:&err];
+                if (@available(iOS 11.0, *)) {
+                    obj = [NSKeyedUnarchiver unarchivedObjectOfClass:cls fromData:data error:&err];
+                } else {
+                    obj = [NSKeyedUnarchiver unarchiveObjectWithData:data];
+                }
             } @catch (NSException *exception) {
                 //nothing to do...
             }
@@ -113,9 +124,14 @@
         return;
     }
     [self.coreCache setObject:object forKey:key];
-    dispatch_async(self.queue, ^{
+    dispatch_async(self.ioQueue, ^{
         NSError * err = nil;
-        NSData * data = [NSKeyedArchiver archivedDataWithRootObject:object requiringSecureCoding:NO error:&err];
+        NSData * data = nil;
+        if (@available(iOS 11.0, *)) {
+            data = [NSKeyedArchiver archivedDataWithRootObject:object requiringSecureCoding:YES error:&err];
+        } else {
+            data = [NSKeyedArchiver archivedDataWithRootObject:object];
+        }
         if (err == nil) {
             NSString * path = [self _getCacheFilePathForKey:key];
             BOOL res = [NSFileManager.defaultManager createFileAtPath:path contents:data attributes:nil];
@@ -136,7 +152,7 @@
     self.name = path.lastPathComponent;
     self.coreCache = [NSCache new];
     self.coreCache.name = self.name;
-    self.queue = dispatch_queue_create("com.orikit.oricache.ioqueue", DISPATCH_QUEUE_SERIAL);
+    self.ioQueue = dispatch_queue_create("com.orikit.oricache.ioqueue", DISPATCH_QUEUE_SERIAL);
     
     BOOL isDir = NO;
     if (![NSFileManager.defaultManager fileExistsAtPath:path isDirectory:&isDir]) {
