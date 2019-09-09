@@ -56,9 +56,9 @@
 - (BOOL)containsObjectForKey:(NSString *)key withClass:(Class)cls
 {
     if (key == nil) return NO;
-    BOOL mem_result = [self.coreCache objectForKey:key];
-    BOOL disk_result= NO;
-    if (mem_result == NO) {
+    id mem_result = [self.coreCache objectForKey:key];
+    BOOL disk_result = NO;
+    if (mem_result) {
         if ([self objectForKey:key withClass:cls]) {
             disk_result = YES;
         }
